@@ -217,6 +217,9 @@ img {
 }
 
 .team-item {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
   background-color: var(--hero-title-color);
 }
 .team-title {
@@ -253,6 +256,9 @@ img {
 }
 
 /*----- Our Portfoli ------*/
+.portfolio {
+  text-align: center;
+}
 
 .portfolio-title {
   text-align: center;
@@ -263,6 +269,22 @@ img {
   color: var(--primary-text-color);
 }
 
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 72px;
+}
+
+.portfolio-item {
+  flex-basis: calc((100% - 2 * 24px) / 3);
+  flex-shrink: 0;
+}
+.portfolio-card {
+  padding: 32px 32px 32px 16px;
+  text-align: left;
+}
 .portfolio-sub-title {
   font-size: 20px;
   font-weight: 500;
