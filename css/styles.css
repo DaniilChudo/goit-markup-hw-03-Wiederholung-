@@ -284,6 +284,7 @@ img {
 .portfolio-card {
   padding: 32px 32px 32px 16px;
   text-align: left;
+  border-bottom: 1px solid #e7e9fc;
 }
 .portfolio-sub-title {
   font-size: 20px;
@@ -294,6 +295,7 @@ img {
 }
 
 .portfolio-description {
+  margin-top: 8px;
   font-size: 16px;
   font-weight: 400;
   line-height: calc(24 / 16);
@@ -306,15 +308,20 @@ img {
 .footer {
   background-color: var(--primary-text-color);
 }
+.footer-container {
+  padding: 100px 0 100px 0;
+}
 
 .logo-footer {
   color: var(--secondary-background-color);
 }
 
 .footer-description {
+  margin-top: 16px;
   font-size: 16px;
   font-weight: 400;
   line-height: calc(24 / 16);
   letter-spacing: 0.32px;
   color: var(--secondary-background-color);
+  width: 264px;
 }
